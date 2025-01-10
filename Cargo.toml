@@ -5,9 +5,10 @@ edition = "2021"
 
 [dependencies]
 
-[profile.dev]
-panic = "abort"
-
-[profile.release]
-panic = "abort"
-
+[profile.stage-1]
+inherits = "release"
+opt-level = "s"
+lto = true
+codegen-units = 1
+debug = false
+overflow-checks = false
