@@ -1,0 +1,6 @@
+[org 0x7e00]
+[bits 16]
+
+mov ah, 0x0e
+mov al, 'H'
+int 0x10
