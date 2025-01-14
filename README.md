@@ -1,0 +1,3 @@
+# rust_boot
+a clone of bios stage1 in the bootloader rust crate
+I want to eventually make a full real mode os, like dos...
